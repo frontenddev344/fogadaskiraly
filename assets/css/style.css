@@ -456,7 +456,7 @@ footer li a {
 
 .casino-text p {
   margin-bottom: 0;
-  max-width: 600px;
+  max-width: 650px;
 }
 .casino-img a{
   display: block;
@@ -470,6 +470,15 @@ footer li a {
 .casino-text .star-color {
   padding: 20px 0 30px;
 }
+.casino-cards .container>.casino-row:nth-child(even) .row .casino-text {
+  text-align:right;
+}
+.casino-cards .container>.casino-row:nth-child(even) .row .casino-text p{
+  margin-right:0;
+  margin-left:auto;
+}
+
+/*hover-effect*/
 .hover-effect{
   position: relative;
   cursor:pointer;
