@@ -67,7 +67,7 @@
     flex-direction: column;
     gap: 1rem;
     width: 100%;
-    background:url("../img/bg-pattern.jpg") no-repeat;
+    background: url("../img/bg-pattern.jpg") no-repeat;
     background-size: cover;
     background-attachment: fixed;
     height: 0;
@@ -86,7 +86,8 @@
   .nav>#nav-check:checked~.nav-list {
     height: 400px;
     margin-top: -3px;
-}
+  }
+
   .nav>.nav-header {
     padding-left: 0;
   }
@@ -122,6 +123,18 @@
     max-width: 100%;
   }
 
+  .casino-img img {
+    height: 400px;
+    margin-bottom: 20px;
+  }
+
+  .casino-cards .container>.casino-row:nth-child(even) .row .casino-text {
+    text-align: left;
+  }
+
+  .casino-cards .container>.casino-row:nth-child(even) .row .casino-text p {
+    margin-left: 0;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -174,6 +187,18 @@
     display: block;
     font-size: 35px;
   }
+  .casino-text .heading{
+    font-size: 24px;
+  }
+  .casino-cards {
+    padding-bottom: 0;
+}
+.question h3{
+  font-size: 16px;
+}
+.answer p{
+  font-size: 14px;
+}
 }
 
 
@@ -183,7 +208,7 @@
   .heading {
     font-size: 26px;
     margin-bottom: 30px;
-  }
+}
 
   .p-80 {
     padding: 30px 0;
@@ -191,5 +216,17 @@
 
   h3 {
     font-size: 24px;
+  }
+
+  .banner h1 {
+    font-size: 26px;
+    line-height: 35px;
+  }
+
+  .banner h1 br {
+    display: none;
+  }
+  .faq{
+    padding-bottom: 30px;
   }
 }

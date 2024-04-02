@@ -16,7 +16,7 @@ body {
   color: var(--grey);
   margin: 0;
   padding: 0;
-  background-color: #f4f4f9; 
+  background-color: #f4f4f9;
   position: relative;
 }
 
@@ -77,15 +77,18 @@ ul {
   animation: loadingC 0.6s 0.1s linear infinite;
   background-color: var(--primary-color);
 }
+
 .load-3 .line:nth-last-child(2) {
   animation: loadingC 0.6s 0.2s linear infinite;
   background-color: var(--pink);
   margin: 0 10px;
 }
+
 .load-3 .line:nth-last-child(3) {
   animation: loadingC 0.6s 0.3s linear infinite;
   background-color: var(--primary-color);
 }
+
 .line {
   display: inline-block;
   width: 30px;
@@ -94,18 +97,21 @@ ul {
 }
 
 @keyframes loadingC {
-  0%{
+  0% {
     transform: translate(0, 0);
   }
+
   50% {
     transform: translate(0, 15px);
-    opacity:0.7;
+    opacity: 0.7;
   }
+
   100% {
     transform: translate(0, 0);
-    opacity:1;
+    opacity: 1;
   }
 }
+
 div#loader {
   position: fixed;
   top: 0;
@@ -129,14 +135,19 @@ div#loader {
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
- 
+
 
 /****/
 header {
-  background:url(../img/bg-pattern.jpg) no-repeat;
+  background: url(../img/bg-pattern.jpg) no-repeat;
   background-size: cover;
   background-position: top;
 }
@@ -231,18 +242,19 @@ header {
 .banner h1 {
   color: #fff;
   text-align: center;
-  font-size: 36px; 
+  font-size: 36px;
   font-weight: 500;
   letter-spacing: 1px;
   position: relative;
   line-height: 50px;
 }
-.banner img{
-  position:absolute;
+
+.banner img {
+  position: absolute;
   z-index: -1;
   width: 100%;
   height: 100%;
-  object-fit:cover;
+  object-fit: cover;
 }
 
 .banner h1 span {
@@ -250,13 +262,14 @@ header {
   font-size: 65px;
   font-weight: 700;
 }
+
 .banner.sub-banner {
   height: 300px;
 }
 
 /***footer**/
 .footer {
-  background:url(../img/bg-pattern.jpg) no-repeat;
+  background: url(../img/bg-pattern.jpg) no-repeat;
   background-size: cover;
   background-position: top;
   padding: 30px 0 30px;
@@ -268,9 +281,11 @@ header {
   margin-bottom: 20px;
   /* filter: brightness(0) invert(1); */
 }
+
 .footer-col {
   margin-top: 20px;
 }
+
 footer ul {
   padding-left: 5px;
   padding-top: 10px;
@@ -317,16 +332,20 @@ footer li a {
   padding-top: 0;
   flex-wrap: wrap;
 }
+
 .footer-icon ul {
   display: flex;
   margin-top: 15px;
 }
+
 .footer-col a {
   line-height: 26px;
 }
-.footer-icon ul li  a:hover i {
+
+.footer-icon ul li a:hover i {
   color: var(--pink);
 }
+
 .copyright p {
   margin: 20px 0 0;
   padding-top: 20px;
@@ -334,9 +353,10 @@ footer li a {
 }
 
 /***hotels list**/
-.listing{
+.listing {
   padding-bottom: 40px;
 }
+
 .list-box {
   display: flex;
   align-items: center;
@@ -398,7 +418,7 @@ footer li a {
 .cookie-text {
   width: 75%;
   margin-bottom: 20px;
-  text-align: center ;
+  text-align: center;
 }
 
 .accept-btn {
@@ -418,19 +438,22 @@ footer li a {
 
 /***disclaimer-sec**/
 .disclaimer-sec {
-  background: var(--primary-color);
-  padding: 60px 0;
+  /* background: var(--primary-color); */
+  padding: 35px 0;
   text-align: center;
+  border-top: 1px solid var(--primary-color);
 }
 
 .disclaimer-sec h2 {
-  color: #fff;
-  padding-bottom: 20px;
+  color: var(--grey);
+  padding-bottom: 10px;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .disclaimer-sec p {
-  color: #fff;
-  font-size: 18px;
+  color: var(--grey);
+  font-size: 14px;
   margin-bottom: 0;
 }
 
@@ -439,9 +462,11 @@ footer li a {
   height: 500px;
   object-fit: cover;
 }
-.casino-cards .container>.casino-row:nth-child(even) .row{
+
+.casino-cards .container>.casino-row:nth-child(even) .row {
   flex-direction: row-reverse;
 }
+
 .casino-row .row {
   align-items: center;
   margin-bottom: 50px;
@@ -458,7 +483,8 @@ footer li a {
   margin-bottom: 0;
   max-width: 650px;
 }
-.casino-img a{
+
+.casino-img a {
   display: block;
 }
 
@@ -470,25 +496,34 @@ footer li a {
 .casino-text .star-color {
   padding: 20px 0 30px;
 }
+
 .casino-cards .container>.casino-row:nth-child(even) .row .casino-text {
-  text-align:right;
+  text-align: right;
 }
-.casino-cards .container>.casino-row:nth-child(even) .row .casino-text p{
-  margin-right:0;
-  margin-left:auto;
+
+.casino-cards .container>.casino-row:nth-child(even) .row .casino-text p {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.casino-cards {
+  padding-bottom: 60px;
 }
 
 /*hover-effect*/
-.hover-effect{
+.hover-effect {
   position: relative;
-  cursor:pointer;
+  cursor: pointer;
 }
+
 .hover-effect::before {
   right: 0;
   opacity: 1;
   bottom: 0;
 }
-.hover-effect::before, .hover-effect::after {
+
+.hover-effect::before,
+.hover-effect::after {
   content: "";
   background: #fff;
   height: 0;
@@ -499,13 +534,111 @@ footer li a {
   -o-transition-duration: 1.3s;
   transition-duration: 1.3s !important;
 }
+
 .hover-effect::after {
   top: 0;
   opacity: 0.7;
   left: 0;
 }
-.hover-effect:hover::after, .hover-effect:hover::before {
+
+.hover-effect:hover::after,
+.hover-effect:hover::before {
   height: 100%;
   opacity: 0;
   width: 100%;
+}
+
+
+/***spa-cards***/
+.spa-col {
+  background: #fff;
+  border-radius: 12px;
+  padding: 15px 15px 60px;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .08);
+  height: 100%;
+  position: relative;
+}
+
+.spa-col .img {
+  width: 100%;
+  max-width: 80%;
+  margin: -45px auto 0;
+  height:250px;
+}
+
+.spa-col .img a{
+  height: 100%;
+}
+
+.spa-col .img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.spa-col .spa-txt {
+  padding: 20px 0;
+  text-align: center;
+}
+.spa-col .spa-txt h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 10px 0 15px;
+}
+.spa-col>a {
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+  transform: translateX(-50%);
+}
+.spa-cards .row>div {
+  margin-bottom: 80px;
+}
+/***faq**/
+.faq {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+.question {
+  margin-bottom: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .08);
+  border-bottom: 2px solid var(--primary-color);
+  padding: 15px;
+}
+.question.active h3 i {
+  transform: rotate(180deg);
+}
+.question h3 {
+  margin: 0;
+  border-radius: 5px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--secondary-color);
+}
+.answer p{
+  margin-bottom: 0;
+}
+.answer {
+  display: none;
+  padding-top: 15px;
+}
+
+.answer.show {
+  display: block;
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
 }
