@@ -30,6 +30,14 @@
     width: 100%;
     margin: auto !important;
   }
+
+  .list-box>a:last-child {
+    width: 20%;
+  }
+
+  .content {
+    width: 55%;
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -187,18 +195,22 @@
     display: block;
     font-size: 35px;
   }
-  .casino-text .heading{
+
+  .casino-text .heading {
     font-size: 24px;
   }
+
   .casino-cards {
     padding-bottom: 0;
-}
-.question h3{
-  font-size: 16px;
-}
-.answer p{
-  font-size: 14px;
-}
+  }
+
+  .question h3 {
+    font-size: 16px;
+  }
+
+  .answer p {
+    font-size: 14px;
+  }
 }
 
 
@@ -208,7 +220,7 @@
   .heading {
     font-size: 26px;
     margin-bottom: 30px;
-}
+  }
 
   .p-80 {
     padding: 30px 0;
@@ -226,7 +238,8 @@
   .banner h1 br {
     display: none;
   }
-  .faq{
+
+  .faq {
     padding-bottom: 30px;
   }
 }
