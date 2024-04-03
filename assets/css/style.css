@@ -370,17 +370,17 @@ footer li a {
 }
 
 .list-box>a:first-child {
-  width: 20%;
+  width: 30%;
 }
 
 .list-box a img {
   width: 100%;
-  height: 200px;
+  height: 250px;
   object-fit: cover;
 }
 
 .content {
-  width: 60%;
+  width: 50%;
 }
 
 .list-box>a:last-child {
@@ -605,7 +605,7 @@ footer li a {
 .question {
   margin-bottom: 20px;
   cursor: pointer;
-  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .08);
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, .08);
   border-bottom: 2px solid var(--primary-color);
   padding: 15px;
 }
