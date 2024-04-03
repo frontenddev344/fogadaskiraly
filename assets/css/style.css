@@ -687,3 +687,19 @@ footer li a {
 .golf-row>.golf-col:nth-child(even) {
   flex-direction: row-reverse;
 }
+
+/***privacy-terms**/
+.privacy-terms-inner h4 {
+  font-weight: 600;
+  color: var(--secondary-color);
+  padding-top: 20px;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+.privacy-terms-inner ul {
+  padding-left: 20px;
+  list-style: disc;
+}
+.privacy-terms-inner ul li {
+  padding-bottom: 5px;
+}

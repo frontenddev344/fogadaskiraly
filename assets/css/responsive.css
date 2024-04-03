@@ -254,4 +254,7 @@
   .faq {
     padding-bottom: 30px;
   }
+  .privacy-terms-inner h4 {
+    font-size: 20px;
+  }
 }
